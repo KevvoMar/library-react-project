@@ -6,8 +6,6 @@ import Price from './Price'
 const Book = ({ book, url, title, originalPrice, salePrice }) => {
     const [img, setImg] = useState()
 
-    const mountedRef = useRef(true)
-
     useEffect(() => {
         const image = new Image()
         image.src = book.url
