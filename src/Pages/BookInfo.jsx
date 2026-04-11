@@ -4,7 +4,6 @@ import { Link, useParams } from 'react-router-dom'
 import Rating from '../components/ui/Rating'
 import Price from '../components/ui/Price'
 import Book from '../components/ui/book'
-import Cart from './Cart'
 
 const BookInfo = ({ books, addToCart, cart }) => {
     const { id } = useParams()
