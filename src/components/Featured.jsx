@@ -1,4 +1,4 @@
-import Book from './ui/Book'
+import Book from '../components/ui/Book'
 import { books } from '../data'
 
 const Featured = () => {

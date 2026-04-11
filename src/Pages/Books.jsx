@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Book from './ui/Book'
+import Book from '../components/ui/Book'
 
 const Books = ({ books: initialBooks, bookPrice, book }) => {
     const [books, setBooks] = useState(initialBooks)
