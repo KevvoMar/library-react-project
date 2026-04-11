@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const Price = ({ book, salePrice, originalPrice }) => {
     return (
